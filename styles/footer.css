@@ -1,0 +1,10 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-block: 24px;
+}
+
+footer .links {
+    display: flex;
+    gap: 16px;
+}
