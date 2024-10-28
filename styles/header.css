@@ -25,6 +25,10 @@ header .container {
     margin-bottom: 8px;
 }
 
+header ul {
+    width: 280px;
+}
+
 header ul li {
     display: flex;
     list-style: none;
