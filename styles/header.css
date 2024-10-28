@@ -1,0 +1,37 @@
+header {
+    padding-block: 32px;
+    background-color: var(--surface-color);
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#profile {
+    display: flex;
+    gap: 32px;
+    width: 592px;
+    align-items: center;
+}
+
+#profile div {
+    display: block;
+    margin-block: 4px;
+}
+
+#profile div h1 {
+    margin-bottom: 8px;
+}
+
+header ul li {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 8px;
+}
+
+header ul li:not(:last-child) {
+    padding-bottom: 16px;
+}
